@@ -1,1 +1,23 @@
+{
+  "login": {
+    "email_input": "input#streamlined-login-email",
+    "password_input": "input#streamlined-login-password",
+    "submit_button": "button[aria-label=\"Log in\"]",
+    "login_check_fallbacks": [
+      "div[data-test-id=\"header-profile\"]",
+      "div[data-test-id=\"header-accounts-options-button\"]",
+      "[aria-label=\"Accounts and more options\"]"
+    ]
+  },
+  "automation": {
+    "follow_button": "button:has-text(\"Follow\")",
+    "unfollow_button": "button:has-text(\"Following\")",
+    "comment_input": "div[contenteditable=\"true\"]",
+    "save_button": "button[data-test-id=\"save-pin-button\"]"
+  },
+  "meta": {
+    "last_updated": "2026-08-09T00:00:00Z",
+    "status": "OK"
+  }
+}
 
